@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sanketm SanketM, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARM.DLL V5.20
+Dialog DLL:      DARMP.DLL V1.52.0.0
+Target DLL:      UL2ARM.DLL V1.74.8.0
+Dialog DLL:      TARMP.DLL V1.52.0.0
+ 
+<h2>Project:</h2>
+G:\My Drive\Envision\ARM_Microcontoller\Interrupt\UART_ADC_interrupt\Treansmitter_ADC_interrupt\Treansmitter_ADC_interrupt.uvproj
+Project File Date:  02/19/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling UART.c...
+UART.h(2): warning:  #1295-D: Deprecated declaration UART_Rx - give arg types
+  char UART_Rx();
+UART.h(3): warning:  #1295-D: Deprecated declaration UART_init - give arg types
+  void UART_init();
+UART.h(4): warning:  #1-D: last line of file ends without a newline
+  void UART_Tx(char data);
+UART.c: 3 warnings, 0 errors
+assembling Startup.s...
+compiling Lcd_4bit.c...
+Lcd_4bit.h(7): warning:  #1295-D: Deprecated declaration LCD_Init - give arg types
+  void LCD_Init();
+Lcd_4bit.h(11): warning:  #1-D: last line of file ends without a newline
+  void display(unsigned int adcval);
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 188 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 189 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(169): warning:  #47-D: incompatible redefinition of macro "U0FDR" (declared at line 199 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U0FDR          (*((volatile unsigned char *) 0xE000C028))
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(176): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 205 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(177): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 206 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil_v5\ARM\INC\Philips\lpc21XX.h(184): warning:  #47-D: incompatible redefinition of macro "U1FDR" (declared at line 216 of "C:\Keil_v5\ARM\INC\Philips\lpc214x.h")
+  #define U1FDR          (*((volatile unsigned char *) 0xE0010028))
+UART.h(2): warning:  #1295-D: Deprecated declaration UART_Rx - give arg types
+  char UART_Rx();
+UART.h(3): warning:  #1295-D: Deprecated declaration UART_init - give arg types
+  void UART_init();
+UART.h(4): warning:  #1-D: last line of file ends without a newline
+  void UART_Tx(char data);
+Lcd_4bit.c(7): warning:  #223-D: function "Delay" declared implicitly
+     Delay(10);
+Lcd_4bit.c(20): warning:  #223-D: function "Delay" declared implicitly
+  	Delay(10);
+Lcd_4bit.c(36): warning:  #223-D: function "Delay" declared implicitly
+  	Delay(10);
+Lcd_4bit.c(65): warning:  #1-D: last line of file ends without a newline
+  	}
+Lcd_4bit.c: 15 warnings, 0 errors
+compiling PLL.c...
+PLL.h(3): warning:  #1-D: last line of file ends without a newline
+  void PLL_SET();
+PLL.h(3): warning:  #1295-D: Deprecated declaration PLL_SET - give arg types
+  void PLL_SET();
+PLL.c(14): warning:  #1-D: last line of file ends without a newline
+  }
+PLL.c: 3 warnings, 0 errors
+compiling ADC.c...
+ADC.h(3): warning:  #1295-D: Deprecated declaration ADC_init - give arg types
+  void ADC_init();
+ADC.h(4): warning:  #1-D: last line of file ends without a newline
+   unsigned int ADC_read( char chanel,char shift);
+Lcd_4bit.h(7): warning:  #1295-D: Deprecated declaration LCD_Init - give arg types
+  void LCD_Init();
+Lcd_4bit.h(11): warning:  #1-D: last line of file ends without a newline
+  void display(unsigned int adcval);
+ADC.c(19): warning:  #61-D: integer operation result is out of range
+  	          while(!(
+D0GDR&(1<<31)));
+ADC.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+  	          while(!(
+D0GDR&(1<<31)));
+ADC.c(21): warning:  #223-D: function "Delay" declared implicitly
+  				    Delay(1);
+ADC.c(27): warning:  #61-D: integer operation result is out of range
+  	          while(!(
+D1GDR&(1<<31)));
+ADC.c(27): warning:  #68-D: integer conversion resulted in a change of sign
+  	          while(!(
+D1GDR&(1<<31)));
+ADC.c(38): warning:  #1-D: last line of file ends without a newline
+   
+ADC.c: 10 warnings, 0 errors
+compiling Treansmitter_ADC_interrupt.c...
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(188): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 163 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U0IER           (*((volatile unsigned long *) 0xE000C004))
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(189): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 164 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U0IIR           (*((volatile unsigned long *) 0xE000C008))
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(199): warning:  #47-D: incompatible redefinition of macro "U0FDR" (declared at line 169 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U0FDR           (*((volatile unsigned long *) 0xE000C028))
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(205): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 176 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U1IER           (*((volatile unsigned long *) 0xE0010004))
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(206): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 177 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U1IIR           (*((volatile unsigned long *) 0xE0010008))
+C:\Keil_v5\ARM\INC\Philips\lpc214x.h(216): warning:  #47-D: incompatible redefinition of macro "U1FDR" (declared at line 184 of "C:\Keil_v5\ARM\INC\Philips\lpc21XX.h")
+  #define U1FDR           (*((volatile unsigned long *) 0xE0010028))
+ADC.h(3): warning:  #1295-D: Deprecated declaration ADC_init - give arg types
+  void ADC_init();
+ADC.h(4): warning:  #1-D: last line of file ends without a newline
+   unsigned int ADC_read( char chanel,char shift);
+Lcd_4bit.h(7): warning:  #1295-D: Deprecated declaration LCD_Init - give arg types
+  void LCD_Init();
+Lcd_4bit.h(11): warning:  #1-D: last line of file ends without a newline
+  void display(unsigned int adcval);
+PLL.h(3): warning:  #1-D: last line of file ends without a newline
+  void PLL_SET();
+PLL.h(3): warning:  #1295-D: Deprecated declaration PLL_SET - give arg types
+  void PLL_SET();
+UART.h(2): warning:  #1295-D: Deprecated declaration UART_Rx - give arg types
+  char UART_Rx();
+UART.h(3): warning:  #1295-D: Deprecated declaration UART_init - give arg types
+  void UART_init();
+UART.h(4): warning:  #1-D: last line of file ends without a newline
+  void UART_Tx(char data);
+Treansmitter_ADC_interrupt.c(11): warning:  #951-D: return type of function "main" must be "int"
+  void main (void)
+Treansmitter_ADC_interrupt.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=2532 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\Treansmitter_ADC_interrupt.axf" - 0 Error(s), 47 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

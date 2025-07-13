@@ -1,0 +1,11 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\treansmitter_adc_interrupt.o"
+".\objects\adc.o"
+".\objects\lcd_4bit.o"
+".\objects\pll.o"
+".\objects\uart.o"
+--strict --scatter ".\Objects\Treansmitter_ADC_interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Treansmitter_ADC_interrupt.map" -o .\Objects\Treansmitter_ADC_interrupt.axf

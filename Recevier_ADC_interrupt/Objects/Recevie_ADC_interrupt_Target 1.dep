@@ -1,0 +1,22 @@
+Dependencies for Project 'Recevie_ADC_interrupt', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 525"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\Recevie_ADC_interrupt.c)(0x67B58C4C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\recevie_adc_interrupt.o --omf_browse .\objects\recevie_adc_interrupt.crf --depend .\objects\recevie_adc_interrupt.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+I (Lcd_4bit.h)(0x677E577E)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (UART.h)(0x6780C357)
+I (PLL.h)(0x677CEFE0)
+F (.\Lcd_4bit.c)(0x6780CFB8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\lcd_4bit.o --omf_browse .\objects\lcd_4bit.crf --depend .\objects\lcd_4bit.d)
+I (Lcd_4bit.h)(0x677E577E)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (UART.h)(0x6780C357)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+F (.\Lcd_4bit.h)(0x677E577E)()
+F (.\PLL.c)(0x677CF079)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (PLL.h)(0x677CEFE0)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+F (.\PLL.h)(0x677CEFE0)()
+F (.\UART.c)(0x6780C3F8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (UART.h)(0x6780C357)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+F (.\UART.h)(0x6780C357)()

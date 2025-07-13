@@ -1,0 +1,28 @@
+Dependencies for Project 'Treansmitter_ADC_interrupt', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 525"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\Treansmitter_ADC_interrupt.c)(0x67B58854)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\treansmitter_adc_interrupt.o --omf_browse .\objects\treansmitter_adc_interrupt.crf --depend .\objects\treansmitter_adc_interrupt.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+I (ADC.h)(0x677F7F45)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (Lcd_4bit.h)(0x677E577E)
+I (PLL.h)(0x677CEFE0)
+I (UART.h)(0x6780C357)
+F (.\ADC.c)(0x6780C9DA)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (ADC.h)(0x677F7F45)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (Lcd_4bit.h)(0x677E577E)
+F (.\ADC.h)(0x677F7F45)()
+F (.\Lcd_4bit.c)(0x6780CA1E)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\lcd_4bit.o --omf_browse .\objects\lcd_4bit.crf --depend .\objects\lcd_4bit.d)
+I (Lcd_4bit.h)(0x677E577E)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+I (UART.h)(0x6780C357)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+F (.\Lcd_4bit.h)(0x677E577E)()
+F (.\PLL.c)(0x677CF079)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (PLL.h)(0x677CEFE0)
+I (C:\Keil_v5\ARM\INC\Philips\lpc214x.h)(0x559CFE30)
+F (.\PLL.h)(0x677CEFE0)()
+F (.\UART.c)(0x6780C3F8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="525"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (UART.h)(0x6780C357)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21XX.h)(0x559CFE30)
+F (.\UART.h)(0x6780C357)()
